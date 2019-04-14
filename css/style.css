@@ -1,0 +1,533 @@
+@import "animation.css";
+article,
+details,
+section,
+summary,
+aside,
+main,
+menu,
+nav,
+figcaption,
+figure,
+footer,
+header,
+hgroup {
+  display: block;
+}
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+[hidden],
+template {
+  display: none;
+}
+@font-face {
+  font-weight: normal;
+  font-family: 'FuturaMediumC';
+  src: url("../fonts/futuramediumc.otf");
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body div#wrapper {
+  position: relative;
+  width: 100%;
+  height: 75vw;
+  margin: 0 auto;
+}
+body div#wrapper section.first {
+  width: 100%;
+  height: 100%;
+  background: url("../img/backgound2.jpg") 0 0 no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+body div#wrapper section.first h2 {
+  padding-top: 12.5%;
+  padding-left: 5.371%;
+  font-family: FuturaMediumC;
+  font-size: 30px;
+}
+body div#wrapper section.first div.left-pain {
+  position: absolute;
+  width: 8.887%;
+  height: 12.891%;
+  top: 60.547%;
+  left: 42.481%;
+  background: url("../img/pain.png") 0 0 no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  -webkit-animation: pain-opacity 5.5s linear, pain-left 1s linear 0s 5;
+  -moz-animation: pain-opacity 5.5s linear, pain-left 1s linear 0s 5;
+  -o-animation: pain-opacity 5.5s linear, pain-left 1s linear 0s 5;
+  -ms-animation: pain-opacity 5.5s linear, pain-left 1s linear 0s 5;
+  animation: pain-opacity 5.5s linear, pain-left 1s linear 0s 5;
+}
+body div#wrapper section.first div.right-pain {
+  position: absolute;
+  top: 50.781%;
+  left: 58.594%;
+  width: 8.887%;
+  height: 12.891%;
+  background: url("../img/pain.png") 0 0 no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  -webkit-animation: pain-opacity 5.5s linear, pain-right 1s linear 0s 5;
+  -moz-animation: pain-opacity 5.5s linear, pain-right 1s linear 0s 5;
+  -o-animation: pain-opacity 5.5s linear, pain-right 1s linear 0s 5;
+  -ms-animation: pain-opacity 5.5s linear, pain-right 1s linear 0s 5;
+  animation: pain-opacity 5.5s linear, pain-right 1s linear 0s 5;
+}
+body div#wrapper section.second {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  -webkit-animation: opacity 25s linear 7s;
+  -moz-animation: opacity 25s linear 7s;
+  -o-animation: opacity 25s linear 7s;
+  -ms-animation: opacity 25s linear 7s;
+  animation: opacity 25s linear 7s;
+}
+body div#wrapper div.window {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0%;
+  height: 0%;
+  border: 0px solid #fff;
+  border-radius: 0px;
+  background: url("../img/window.jpg") center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -webkit-animation: window 25s linear 7s;
+  -moz-animation: window 25s linear 7s;
+  -o-animation: window 25s linear 7s;
+  -ms-animation: window 25s linear 7s;
+  animation: window 25s linear 7s;
+}
+body div#wrapper div.window div.inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding-top: 13.5%;
+}
+body div#wrapper div.window div.inner div.mitochondriya-first {
+  position: absolute;
+  top: 74%;
+  left: 67%;
+  width: 21.77%;
+  height: 28.75%;
+  background: url("../img/mitochondria.png") center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -webkit-animation: mitochondriya 1.5s linear 18s 5;
+  -moz-animation: mitochondriya 1.5s linear 18s 5;
+  -o-animation: mitochondriya 1.5s linear 18s 5;
+  -ms-animation: mitochondriya 1.5s linear 18s 5;
+  animation: mitochondriya 1.5s linear 18s 5;
+}
+body div#wrapper div.window div.inner div.mitochondriya-second {
+  position: absolute;
+  top: 78%;
+  left: 28%;
+  width: 21.77%;
+  height: 28.75%;
+  background: url("../img/mitochondria.png") center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -webkit-transform: rotate(30deg);
+  -moz-transform: rotate(30deg);
+  -o-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  transform: rotate(30deg);
+  -webkit-animation: mitochondriya 1.5s linear 18s 5;
+  -moz-animation: mitochondriya 1.5s linear 18s 5;
+  -o-animation: mitochondriya 1.5s linear 18s 5;
+  -ms-animation: mitochondriya 1.5s linear 18s 5;
+  animation: mitochondriya 1.5s linear 18s 5;
+}
+body div#wrapper div.window div.inner span.mal {
+  position: absolute;
+  width: 1.63%;
+  height: 2.5%;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  background: url("../img/malat.png") center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+body div#wrapper div.window div.inner span.mal.malat-one {
+  top: 6%;
+  left: 38%;
+  -webkit-animation: mal-one 10s linear 7s;
+  -moz-animation: mal-one 10s linear 7s;
+  -o-animation: mal-one 10s linear 7s;
+  -ms-animation: mal-one 10s linear 7s;
+  animation: mal-one 10s linear 7s;
+}
+body div#wrapper div.window div.inner span.mal.malat-two {
+  top: 8%;
+  left: 36%;
+  -webkit-animation: mal-two 9s linear 7s;
+  -moz-animation: mal-two 9s linear 7s;
+  -o-animation: mal-two 9s linear 7s;
+  -ms-animation: mal-two 9s linear 7s;
+  animation: mal-two 9s linear 7s;
+}
+body div#wrapper div.window div.inner span.mal.malat-three {
+  top: 9%;
+  left: 33.5%;
+  -webkit-animation: mal-three 9.5s linear 7s;
+  -moz-animation: mal-three 9.5s linear 7s;
+  -o-animation: mal-three 9.5s linear 7s;
+  -ms-animation: mal-three 9.5s linear 7s;
+  animation: mal-three 9.5s linear 7s;
+}
+body div#wrapper div.window div.inner span.mal.malat-four {
+  top: 9.3%;
+  left: 38%;
+  -webkit-animation: mal-four 9.5s linear 7s;
+  -moz-animation: mal-four 9.5s linear 7s;
+  -o-animation: mal-four 9.5s linear 7s;
+  -ms-animation: mal-four 9.5s linear 7s;
+  animation: mal-four 9.5s linear 7s;
+}
+body div#wrapper div.window div.inner span.mal.malat-five {
+  top: 11.5%;
+  left: 36%;
+  -webkit-animation: mal-five 9s linear 7s;
+  -moz-animation: mal-five 9s linear 7s;
+  -o-animation: mal-five 9s linear 7s;
+  -ms-animation: mal-five 9s linear 7s;
+  animation: mal-five 9s linear 7s;
+}
+body div#wrapper div.window div.inner span.mal.malat-six {
+  top: 14%;
+  left: 34%;
+  -webkit-animation: mal-six 10s linear 7s;
+  -moz-animation: mal-six 10s linear 7s;
+  -o-animation: mal-six 10s linear 7s;
+  -ms-animation: mal-six 10s linear 7s;
+  animation: mal-six 10s linear 7s;
+}
+body div#wrapper div.window div.inner span.mal.malat-seven {
+  top: 14%;
+  left: 37.5%;
+  -webkit-animation: mal-seven 8s linear 7s;
+  -moz-animation: mal-seven 8s linear 7s;
+  -o-animation: mal-seven 8s linear 7s;
+  -ms-animation: mal-seven 8s linear 7s;
+  animation: mal-seven 8s linear 7s;
+}
+body div#wrapper div.window div.inner span.mal.malat-eight {
+  top: 17%;
+  left: 36%;
+  -webkit-animation: mal-eight 8s linear 7s;
+  -moz-animation: mal-eight 8s linear 7s;
+  -o-animation: mal-eight 8s linear 7s;
+  -ms-animation: mal-eight 8s linear 7s;
+  animation: mal-eight 8s linear 7s;
+}
+body div#wrapper div.window div.inner span.mal.malat-nine {
+  top: 19%;
+  left: 37.8%;
+  -webkit-animation: mal-nine 10s linear 7s;
+  -moz-animation: mal-nine 10s linear 7s;
+  -o-animation: mal-nine 10s linear 7s;
+  -ms-animation: mal-nine 10s linear 7s;
+  animation: mal-nine 10s linear 7s;
+}
+body div#wrapper div.window div.inner span.mal.malat-ten {
+  top: 21%;
+  left: 36%;
+  -webkit-animation: mal-ten 9s linear 7s;
+  -moz-animation: mal-ten 9s linear 7s;
+  -o-animation: mal-ten 9s linear 7s;
+  -ms-animation: mal-ten 9s linear 7s;
+  animation: mal-ten 9s linear 7s;
+}
+body div#wrapper div.window div.inner span.mal.malat-eleven {
+  top: 23%;
+  left: 34%;
+  -webkit-animation: mal-eleven 10s linear 7s;
+  -moz-animation: mal-eleven 10s linear 7s;
+  -o-animation: mal-eleven 10s linear 7s;
+  -ms-animation: mal-eleven 10s linear 7s;
+  animation: mal-eleven 10s linear 7s;
+}
+body div#wrapper div.window div.inner span.mal.malat-twelve {
+  top: 23%;
+  left: 38%;
+  -webkit-animation: mal-twelve 8s linear 7s;
+  -moz-animation: mal-twelve 8s linear 7s;
+  -o-animation: mal-twelve 8s linear 7s;
+  -ms-animation: mal-twelve 8s linear 7s;
+  animation: mal-twelve 8s linear 7s;
+}
+body div#wrapper div.window div.inner span.mal.malat-thirteen {
+  top: 25%;
+  left: 35.8%;
+  -webkit-animation: mal-thirteen 9s linear 7s;
+  -moz-animation: mal-thirteen 9s linear 7s;
+  -o-animation: mal-thirteen 9s linear 7s;
+  -ms-animation: mal-thirteen 9s linear 7s;
+  animation: mal-thirteen 9s linear 7s;
+}
+body div#wrapper div.window div.inner span.citr {
+  position: absolute;
+  width: 1.63%;
+  height: 2.5%;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  background: url("../img/citrullin.png") center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+body div#wrapper div.window div.inner span.citr.citrullin-one {
+  top: 4%;
+  left: 60.5%;
+  -webkit-animation: citr-one 10s linear 7s;
+  -moz-animation: citr-one 10s linear 7s;
+  -o-animation: citr-one 10s linear 7s;
+  -ms-animation: citr-one 10s linear 7s;
+  animation: citr-one 10s linear 7s;
+}
+body div#wrapper div.window div.inner span.citr.citrullin-two {
+  top: 5%;
+  left: 63%;
+  -webkit-animation: citr-two 9s linear 7s;
+  -moz-animation: citr-two 9s linear 7s;
+  -o-animation: citr-two 9s linear 7s;
+  -ms-animation: citr-two 9s linear 7s;
+  animation: citr-two 9s linear 7s;
+}
+body div#wrapper div.window div.inner span.citr.citrullin-three {
+  top: 8%;
+  left: 63.5%;
+  -webkit-animation: citr-three 9.5s linear 7s;
+  -moz-animation: citr-three 9.5s linear 7s;
+  -o-animation: citr-three 9.5s linear 7s;
+  -ms-animation: citr-three 9.5s linear 7s;
+  animation: citr-three 9.5s linear 7s;
+}
+body div#wrapper div.window div.inner span.citr.citrullin-four {
+  top: 8%;
+  left: 65.8%;
+  -webkit-animation: citr-four 9.5s linear 7s;
+  -moz-animation: citr-four 9.5s linear 7s;
+  -o-animation: citr-four 9.5s linear 7s;
+  -ms-animation: citr-four 9.5s linear 7s;
+  animation: citr-four 9.5s linear 7s;
+}
+body div#wrapper div.window div.inner span.citr.citrullin-five {
+  top: 10%;
+  left: 61.5%;
+  -webkit-animation: citr-five 9s linear 7s;
+  -moz-animation: citr-five 9s linear 7s;
+  -o-animation: citr-five 9s linear 7s;
+  -ms-animation: citr-five 9s linear 7s;
+  animation: citr-five 9s linear 7s;
+}
+body div#wrapper div.window div.inner span.citr.citrullin-six {
+  top: 11%;
+  left: 63.5%;
+  -webkit-animation: citr-six 10s linear 7s;
+  -moz-animation: citr-six 10s linear 7s;
+  -o-animation: citr-six 10s linear 7s;
+  -ms-animation: citr-six 10s linear 7s;
+  animation: citr-six 10s linear 7s;
+}
+body div#wrapper div.window div.inner span.citr.citrullin-seven {
+  top: 12%;
+  left: 65%;
+  -webkit-animation: citr-seven 8s linear 7s;
+  -moz-animation: citr-seven 8s linear 7s;
+  -o-animation: citr-seven 8s linear 7s;
+  -ms-animation: citr-seven 8s linear 7s;
+  animation: citr-seven 8s linear 7s;
+}
+body div#wrapper div.window div.inner span.citr.citrullin-eight {
+  top: 14%;
+  left: 61%;
+  -webkit-animation: citr-eight 8s linear 7s;
+  -moz-animation: citr-eight 8s linear 7s;
+  -o-animation: citr-eight 8s linear 7s;
+  -ms-animation: citr-eight 8s linear 7s;
+  animation: citr-eight 8s linear 7s;
+}
+body div#wrapper div.window div.inner span.citr.citrullin-nine {
+  top: 15%;
+  left: 63.3%;
+  -webkit-animation: citr-nine 10s linear 7s;
+  -moz-animation: citr-nine 10s linear 7s;
+  -o-animation: citr-nine 10s linear 7s;
+  -ms-animation: citr-nine 10s linear 7s;
+  animation: citr-nine 10s linear 7s;
+}
+body div#wrapper div.window div.inner span.citr.citrullin-ten {
+  top: 17%;
+  left: 65.5%;
+  -webkit-animation: citr-ten 9s linear 7s;
+  -moz-animation: citr-ten 9s linear 7s;
+  -o-animation: citr-ten 9s linear 7s;
+  -ms-animation: citr-ten 9s linear 7s;
+  animation: citr-ten 9s linear 7s;
+}
+body div#wrapper div.window div.inner span.citr.citrullin-eleven {
+  top: 19%;
+  left: 62%;
+  -webkit-animation: citr-eleven 10s linear 7s;
+  -moz-animation: citr-eleven 10s linear 7s;
+  -o-animation: citr-eleven 10s linear 7s;
+  -ms-animation: citr-eleven 10s linear 7s;
+  animation: citr-eleven 10s linear 7s;
+}
+body div#wrapper div.window div.inner span.citr.citrullin-twelve {
+  top: 20%;
+  left: 64%;
+  -webkit-animation: citr-twelve 8s linear 7s;
+  -moz-animation: citr-twelve 8s linear 7s;
+  -o-animation: citr-twelve 8s linear 7s;
+  -ms-animation: citr-twelve 8s linear 7s;
+  animation: citr-twelve 8s linear 7s;
+}
+body div#wrapper div.window div.inner span.citr.citrullin-thirteen {
+  top: 22%;
+  left: 61.5%;
+  -webkit-animation: citr-thirteen 9s linear 7s;
+  -moz-animation: citr-thirteen 9s linear 7s;
+  -o-animation: citr-thirteen 9s linear 7s;
+  -ms-animation: citr-thirteen 9s linear 7s;
+  animation: citr-thirteen 9s linear 7s;
+}
+body div#wrapper div.window div.inner span.citr.citrullin-fourteen {
+  top: 25%;
+  left: 64%;
+  -webkit-animation: citr-fourteen 9s linear 7s;
+  -moz-animation: citr-fourteen 9s linear 7s;
+  -o-animation: citr-fourteen 9s linear 7s;
+  -ms-animation: citr-fourteen 9s linear 7s;
+  animation: citr-fourteen 9s linear 7s;
+}
+body div#wrapper div.window div.inner span.radical-over,
+body div#wrapper div.window div.inner span.radical-under {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 8.37%;
+  height: 18.437%;
+  background: url("../img/radical.png") center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+body div#wrapper div.window div.inner span.radical-over.one {
+  top: 25%;
+  left: 5%;
+}
+body div#wrapper div.window div.inner span.radical-over.two {
+  top: 10%;
+  left: 10%;
+}
+body div#wrapper div.window div.inner span.radical-over.three {
+  top: 14%;
+  left: 28%;
+}
+body div#wrapper div.window div.inner span.radical-over.four {
+  top: 11%;
+  left: 65%;
+}
+body div#wrapper div.window div.inner span.radical-over.five {
+  top: 10%;
+  left: 84%;
+}
+body div#wrapper div.window div.inner span.radical-under.one {
+  top: 81%;
+  left: 10%;
+}
+body div#wrapper div.window div.inner span.radical-under.two {
+  top: 75%;
+  left: 47.5%;
+}
+body div#wrapper div.window div.inner span.radical-under.three {
+  top: 80%;
+  left: 60%;
+}
+body div#wrapper div.window div.inner span.radical-under.four {
+  top: 73%;
+  left: 83%;
+}
+body div#wrapper div.window div.inner span.radical-under.five {
+  top: 70%;
+  left: 91%;
+}
+body div#wrapper div.window div.inner span.radical-over {
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  -webkit-animation: over 15s linear;
+  -moz-animation: over 15s linear;
+  -o-animation: over 15s linear;
+  -ms-animation: over 15s linear;
+  animation: over 15s linear;
+}
+body div#wrapper div.window div.inner span.radical-under {
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  -webkit-animation: under 18s linear;
+  -moz-animation: under 18s linear;
+  -o-animation: under 18s linear;
+  -ms-animation: under 18s linear;
+  animation: under 18s linear;
+}
+body div#wrapper div.window div.inner div.membrane {
+  position: relative;
+  padding-top: 42%;
+  width: 100%;
+  height: 0%;
+  background: url("../img/membrane.png") center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  z-index: 5;
+  -webkit-animation: membrane 25s linear 8s;
+  -moz-animation: membrane 25s linear 8s;
+  -o-animation: membrane 25s linear 8s;
+  -ms-animation: membrane 25s linear 8s;
+  animation: membrane 25s linear 8s;
+}

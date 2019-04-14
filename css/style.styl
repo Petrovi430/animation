@@ -1,0 +1,273 @@
+@import "nib"
+@import "animation.css"
+normalize-html5()
+
+@font-face
+  font-weight normal
+  font-family 'FuturaMediumC'
+  src url(../fonts/futuramediumc.otf)
+
+*
+  margin 0px
+  padding 0px
+  box-sizing border-box
+body
+  div#wrapper
+    position relative
+    width 100%
+    height 75vw
+    margin 0 auto
+    section.first
+      width 100%
+      height 100%
+      background url(../img/backgound2.jpg) 0 0 no-repeat
+      background-size cover
+      h2
+        padding-top 12.5%
+        padding-left 5.371%
+        font-family FuturaMediumC
+        font-size 30px
+      div.left-pain
+        position absolute
+        width 8.887%
+        height 12.891%
+        top 60.547%
+        left 42.481%
+        background url(../img/pain.png) 0 0 no-repeat
+        background-size cover
+        opacity 0
+        animation pain-opacity 5.5s linear, pain-left 1s linear 0s 5
+      div.right-pain
+        position absolute
+        top 50.781%
+        left 58.594%
+        width 8.887%
+        height 12.891%
+        background url(../img/pain.png) 0 0 no-repeat
+        background-size cover
+        opacity 0
+        animation pain-opacity 5.5s linear, pain-right 1s linear 0s 5
+
+    section.second
+      position absolute
+      top 0
+      left 0
+      width 100%
+      height 100%
+      background white
+      opacity 0
+      animation opacity 25s linear 7s
+
+    div.window
+      position absolute
+      top 50%
+      left 50%
+      width 0%
+      height 0%
+      border 0px solid white
+      border-radius 0px
+      background url(../img/window.jpg) center center no-repeat
+      background-size cover
+      animation window 25s linear 7s
+      div.inner
+        position relative
+        width 100%
+        height 100%
+        padding-top 13.5%
+        div.mitochondriya-first
+          position absolute
+          top 74%
+          left 67%
+          width 21.77%
+          height 28.75%
+          background url(../img/mitochondria.png) center center no-repeat
+          background-size cover
+          animation mitochondriya 1.5s linear 18s 5
+        div.mitochondriya-second
+          position absolute
+          top 78%
+          left 28%
+          width 21.77%
+          height 28.75%
+          background url(../img/mitochondria.png) center center no-repeat
+          background-size cover
+          transform rotate(30deg)
+          animation mitochondriya 1.5s linear 18s 5
+        span.mal
+          position absolute
+          width 1.63%
+          height 2.5%
+          opacity 0
+          background url(../img/malat.png) center center no-repeat
+          background-size cover
+          &.malat-one
+            top 6%
+            left 38%
+            animation mal-one 10s linear 7s
+          &.malat-two
+            top 8%
+            left 36%
+            animation mal-two 9s linear 7s
+          &.malat-three
+            top 9%
+            left 33.5%
+            animation mal-three 9.5s linear 7s
+          &.malat-four
+            top 9.3%
+            left 38%
+            animation mal-four 9.5s linear 7s
+          &.malat-five
+            top 11.5%
+            left 36%
+            animation mal-five 9s linear 7s
+          &.malat-six
+            top 14%
+            left 34%
+            animation mal-six 10s linear 7s
+          &.malat-seven
+            top 14%
+            left 37.5%
+            animation mal-seven 8s linear 7s
+          &.malat-eight
+            top 17%
+            left 36%
+            animation mal-eight 8s linear 7s
+          &.malat-nine
+            top 19%
+            left 37.8%
+            animation mal-nine 10s linear 7s
+          &.malat-ten
+            top 21%
+            left 36%
+            animation mal-ten 9s linear 7s
+          &.malat-eleven
+            top 23%
+            left 34%
+            animation mal-eleven 10s linear 7s
+          &.malat-twelve
+            top 23%
+            left 38%
+            animation mal-twelve 8s linear 7s
+          &.malat-thirteen
+            top 25%
+            left 35.8%
+            animation mal-thirteen 9s linear 7s
+
+        span.citr
+          position absolute
+          width 1.63%
+          height 2.5%
+          opacity 0
+          background url(../img/citrullin.png) center center no-repeat
+          background-size cover
+          &.citrullin-one
+            top 4%
+            left 60.5%
+            animation citr-one 10s linear 7s
+          &.citrullin-two
+            top 5%
+            left 63%
+            animation citr-two 9s linear 7s
+          &.citrullin-three
+            top 8%
+            left 63.5%
+            animation citr-three 9.5s linear 7s
+          &.citrullin-four
+            top 8%
+            left 65.8%
+            animation citr-four 9.5s linear 7s
+          &.citrullin-five
+            top 10%
+            left 61.5%
+            animation citr-five 9s linear 7s
+          &.citrullin-six
+            top 11%
+            left 63.5%
+            animation citr-six 10s linear 7s
+          &.citrullin-seven
+            top 12%
+            left 65%
+            animation citr-seven 8s linear 7s
+          &.citrullin-eight
+            top 14%
+            left 61%
+            animation citr-eight 8s linear 7s
+          &.citrullin-nine
+            top 15%
+            left 63.3%
+            animation citr-nine 10s linear 7s
+          &.citrullin-ten
+            top 17%
+            left 65.5%
+            animation citr-ten 9s linear 7s
+          &.citrullin-eleven
+            top 19%
+            left 62%
+            animation citr-eleven 10s linear 7s
+          &.citrullin-twelve
+            top 20%
+            left 64%
+            animation citr-twelve 8s linear 7s
+          &.citrullin-thirteen
+            top 22%
+            left 61.5%
+            animation citr-thirteen 9s linear 7s
+          &.citrullin-fourteen
+            top 25%
+            left 64%
+            animation citr-fourteen 9s linear 7s
+        span.radical-over
+        span.radical-under
+          position absolute
+          top 0
+          left 0
+          width 8.37%
+          height 18.437%
+          background url(../img/radical.png) center center no-repeat
+          background-size cover
+        span.radical-over.one
+          top 25%
+          left 5%
+        span.radical-over.two
+          top 10%
+          left 10%
+        span.radical-over.three
+          top 14%
+          left 28%
+        span.radical-over.four
+          top 11%
+          left 65%
+        span.radical-over.five
+          top 10%
+          left 84%
+        span.radical-under.one
+          top 81%
+          left 10%
+        span.radical-under.two
+          top 75%
+          left 47.5%
+        span.radical-under.three
+          top 80%
+          left 60%
+        span.radical-under.four
+          top 73%
+          left 83%
+        span.radical-under.five
+          top 70%
+          left 91%
+        span.radical-over
+          opacity 0
+          animation over 15s linear
+        span.radical-under
+          opacity 0
+          animation under 18s linear
+        div.membrane
+          position relative
+          padding-top 42%
+          width 100%
+          height 0%
+          background url(../img/membrane.png) center center no-repeat
+          background-size cover
+          z-index 5
+          animation membrane 25s linear 8s
+

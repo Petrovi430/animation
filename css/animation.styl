@@ -1,0 +1,813 @@
+@import "nib"
+
+@keyframes pain-left
+  0%
+    top 60.547%
+    left 42.481%
+    width 8.887%
+    height 12.891%
+  50%
+    top 57.292%
+    left 40.332%
+    width 13.281%
+    height 19.401%
+  100%
+    top 60.547%
+    left 42.481%
+    width 8.887%
+    height 12.891%
+
+@keyframes pain-right
+  0%
+    top 50.781%
+    left 58.594%
+    width 8.887%
+    height 12.891%
+  50%
+    top 47.526%
+    left 56.445%
+    width 13.281%
+    height 19.401%
+  100%
+    top 50.781%
+    left 58.594%
+    width 8.887%
+    height 12.891%
+
+@keyframes pain-opacity
+  0%
+    opacity 0
+  10%
+    opacity 1
+  95%
+    opacity 1
+  100%
+    opacity 0
+
+@keyframes opacity
+  0%
+    opacity 0
+  3%
+    opacity .8
+  100%
+    opacity .8
+
+@keyframes window
+  0%
+    width 0%
+    height 0%
+    top 50%
+    left 50%
+    border 0px solid white
+    border-radius 0px
+  10%
+    width 71.777%
+    height 62.5%
+    top 18.75%
+    left 14.111%
+    border 15px solid white
+    border-radius 15px
+  100%
+    width 71.777%
+    height 62.5%
+    top 18.75%
+    left 14.111%
+    border 15px solid white
+    border-radius 15px
+
+@keyframes mitochondriya
+  0%
+    background url(../img/mitochondria.png) center center no-repeat
+    background-size cover
+  50%
+    background url(../img/mitochondria-active.png) center center no-repeat
+    background-size cover
+  100%
+    background url(../img/mitochondria.png) center center no-repeat
+    background-size cover
+
+@keyframes mal-one
+  0%
+    opacity 0
+    top 6%
+    left 38%
+  25%
+    opacity 0
+    top 6%
+    left 38%
+  30%
+    opacity 1
+  60%
+    top 26%
+    left 18%
+  70%
+    top 28%
+    left 18%
+  95%
+    top 86%
+    left 18%
+    opacity 1
+  100%
+    opacity 0
+    top 86%
+    left 18%
+
+@keyframes mal-two
+  0%
+    opacity 0
+    top 8%
+    left 36%
+  25%
+    opacity 0
+    top 8%
+    left 36%
+  30%
+    opacity 1
+  60%
+    top 20%
+    left 8%
+  70%
+    top 22%
+    left 8%
+  95%
+    top 82%
+    left 8%
+    opacity 1
+  100%
+    opacity 0
+    top 82%
+    left 8%
+
+@keyframes mal-three
+  0%
+    opacity 0
+    top 9%
+    left 33.5%
+  25%
+    opacity 0
+    top 9%
+    left 33.5%
+  30%
+    opacity 1
+  60%
+    top 13%
+    left 13%
+  70%
+    top 14%
+    left 12%
+  95%
+    top 92%
+    left 12%
+    opacity 1
+  100%
+    opacity 0
+    top 92%
+    left 12%
+
+@keyframes mal-four
+  0%
+    opacity 0
+    top 9.3%
+    left 38%
+  25%
+    opacity 0
+    top 9.3%
+    left 38%
+  30%
+    opacity 1
+  60%
+    top 11%
+    left 30%
+  70%
+    top 12%
+    left 29%
+  95%
+    top 87%
+    left 29%
+    opacity 1
+  100%
+    opacity 0
+    top 88%
+    left 29%
+
+@keyframes mal-five
+  0%
+    opacity 0
+    top 11.5%
+    left 36%
+  25%
+    opacity 0
+    top 11.5%
+    left 36%
+  30%
+    opacity 1
+  60%
+    top 10%
+    left 15%
+  70%
+    top 10%
+    left 13%
+  95%
+    top 84%
+    left 18%
+    opacity 1
+  100%
+    opacity 0
+    top 88%
+    left 20%
+
+@keyframes mal-six
+  0%
+    opacity 0
+    top 14%
+    left 34%
+  25%
+    opacity 0
+    top 14%
+    left 34%
+  30%
+    opacity 1
+  60%
+    top 14%
+    left 25%
+  70%
+    top 12%
+    left 24%
+  95%
+    top 88%
+    left 23%
+    opacity 1
+  100%
+    opacity 0
+    top 90%
+    left 23%
+
+@keyframes mal-seven
+  0%
+    opacity 0
+    top 14%
+    left 37.5%
+  25%
+    opacity 0
+    top 14%
+    left 37.5%
+  30%
+    opacity 1
+  60%
+    top 24%
+    left 30%
+  70%
+    top 25%
+    left 28%
+  95%
+    top 85%
+    left 25%
+    opacity 1
+  100%
+    opacity 0
+    top 87%
+    left 26%
+
+@keyframes mal-eight
+  0%
+    opacity 0
+    top 17%
+    left 36%
+  25%
+    opacity 0
+    top 17%
+    left 36%
+  30%
+    opacity 1
+  60%
+    top 24%
+    left 12%
+  70%
+    top 25%
+    left 11%
+  95%
+    top 85%
+    left 11%
+    opacity 1
+  100%
+    opacity 0
+    top 86%
+    left 11%
+
+@keyframes mal-nine
+  0%
+    opacity 0
+    top 19%
+    left 37.8%
+  25%
+    opacity 0
+    top 19%
+    left 37.8%
+  30%
+    opacity 1
+  60%
+    top 21%
+    left 15%
+  70%
+    top 22%
+    left 15%
+  95%
+    top 92%
+    left 14%
+    opacity 1
+  100%
+    opacity 0
+    top 94%
+    left 14%
+
+@keyframes mal-ten
+  0%
+    opacity 0
+    top 21%
+    left 36%
+  25%
+    opacity 0
+    top 21%
+    left 36%
+  30%
+    opacity 1
+  60%
+    top 14%
+    left 22%
+  70%
+    top 15%
+    left 22%
+  95%
+    top 83%
+    left 22%
+    opacity 1
+  100%
+    opacity 0
+    top 85%
+    left 22%
+
+@keyframes mal-eleven
+  0%
+    opacity 0
+    top 23%
+    left 34%
+  25%
+    opacity 0
+    top 23%
+    left 34%
+  30%
+    opacity 1
+  60%
+    top 25%
+    left 28%
+  70%
+    top 26%
+    left 26%
+  95%
+    top 86%
+    left 22%
+    opacity 1
+  100%
+    opacity 0
+    top 89%
+    left 21%
+
+@keyframes mal-twelve
+  0%
+    opacity 0
+    top 23%
+    left 38%
+  25%
+    opacity 0
+    top 23%
+    left 38%
+  30%
+    opacity 1
+  60%
+    top 18%
+    left 5%
+  70%
+    top 19%
+    left 5%
+  95%
+    top 83%
+    left 3%
+    opacity 1
+  100%
+    opacity 0
+    top 85%
+    left 3%
+
+@keyframes mal-thirteen
+  0%
+    opacity 0
+    top 25%
+    left 35.8%
+  25%
+    opacity 0
+    top 25%
+    left 35.8%
+  30%
+    opacity 1
+  60%
+    top 20%
+    left 30%
+  70%
+    top 21%
+    left 29%
+  95%
+    top 83%
+    left 35%
+    opacity 1
+  100%
+    opacity 0
+    top 85%
+    left 36%
+
+@keyframes citr-one
+  0%
+    opacity 0
+    top 4%
+    left 60.5%
+  25%
+    opacity 0
+    top 4%
+    left 60.5%
+  30%
+    opacity 1
+  60%
+    top 26%
+    left 68.5%
+  70%
+    top 28%
+    left 69.5%
+  95%
+    top 86%
+    left 70%
+    opacity 1
+  100%
+    opacity 0
+    top 86%
+    left 70%
+
+@keyframes citr-two
+  0%
+    opacity 0
+    top 5%
+    left 63%
+  25%
+    opacity 0
+    top 5%
+    left 63%
+  30%
+    opacity 1
+  60%
+    top 20%
+    left 88%
+  70%
+    top 22%
+    left 88%
+  95%
+    top 82%
+    left 88%
+    opacity 1
+  100%
+    opacity 0
+    top 82%
+    left 88%
+
+@keyframes citr-three
+  0%
+    opacity 0
+    top 8%
+    left 63.5%
+  25%
+    opacity 0
+    top 8%
+    left 63.5%
+  30%
+    opacity 1
+  60%
+    top 13%
+    left 73%
+  70%
+    top 14%
+    left 72%
+  95%
+    top 92%
+    left 72%
+    opacity 1
+  100%
+    opacity 0
+    top 92%
+    left 72%
+
+@keyframes citr-four
+  0%
+    opacity 0
+    top 8%
+    left 65.8%
+  25%
+    opacity 0
+    top 8%
+    left 65.8%
+  30%
+    opacity 1
+  60%
+    top 11%
+    left 90%
+  70%
+    top 12%
+    left 91%
+  95%
+    top 87%
+    left 91%
+    opacity 1
+  100%
+    opacity 0
+    top 88%
+    left 91%
+
+@keyframes citr-five
+  0%
+    opacity 0
+    top 10%
+    left 61.5%
+  25%
+    opacity 0
+    top 10%
+    left 61.5%
+  30%
+    opacity 1
+  60%
+    top 10%
+    left 75%
+  70%
+    top 10%
+    left 76%
+  95%
+    top 84%
+    left 76%
+    opacity 1
+  100%
+    opacity 0
+    top 88%
+    left 78%
+
+@keyframes citr-six
+  0%
+    opacity 0
+    top 11%
+    left 63.5%
+  25%
+    opacity 0
+    top 11%
+    left 63.5%
+  30%
+    opacity 1
+  60%
+    top 14%
+    left 65%
+  70%
+    top 12%
+    left 66%
+  95%
+    top 88%
+    left 67%
+    opacity 1
+  100%
+    opacity 0
+    top 90%
+    left 67%
+
+@keyframes citr-seven
+  0%
+    opacity 0
+    top 12%
+    left 65%
+  25%
+    opacity 0
+    top 12%
+    left 65%
+  30%
+    opacity 1
+  60%
+    top 24%
+    left 80%
+  70%
+    top 25%
+    left 88%
+  95%
+    top 85%
+    left 95%
+    opacity 1
+  100%
+    opacity 0
+    top 87%
+    left 96%
+
+@keyframes citr-eight
+  0%
+    opacity 0
+    top 14%
+    left 61%
+  25%
+    opacity 0
+    top 14%
+    left 61%
+  30%
+    opacity 1
+  60%
+    top 24%
+    left 72%
+  70%
+    top 25%
+    left 73%
+  95%
+    top 85%
+    left 73%
+    opacity 1
+  100%
+    opacity 0
+    top 86%
+    left 73%
+
+@keyframes citr-nine
+  0%
+    opacity 0
+    top 15%
+    left 63.3%
+  25%
+    opacity 0
+    top 15%
+    left 63.3%
+  30%
+    opacity 1
+  60%
+    top 21%
+    left 78%
+  70%
+    top 22%
+    left 78%
+  95%
+    top 92%
+    left 79%
+    opacity 1
+  100%
+    opacity 0
+    top 94%
+    left 79%
+
+@keyframes citr-ten
+  0%
+    opacity 0
+    top 17%
+    left 65.5%
+  25%
+    opacity 0
+    top 17%
+    left 65.5%
+  30%
+    opacity 1
+  60%
+    top 14%
+    left 72%
+  70%
+    top 15%
+    left 72%
+  95%
+    top 83%
+    left 61%
+    opacity 1
+  100%
+    opacity 0
+    top 85%
+    left 61%
+
+@keyframes citr-eleven
+  0%
+    opacity 0
+    top 19%
+    left 62%
+  25%
+    opacity 0
+    top 19%
+    left 62%
+  30%
+    opacity 1
+  60%
+    top 25%
+    left 86%
+  70%
+    top 26%
+    left 88%
+  95%
+    top 86%
+    left 89%
+    opacity 1
+  100%
+    opacity 0
+    top 89%
+    left 90%
+
+@keyframes citr-twelve
+  0%
+    opacity 0
+    top 20%
+    left 64%
+  25%
+    opacity 0
+    top 20%
+    left 64%
+  30%
+    opacity 1
+  60%
+    top 18%
+    left 95%
+  70%
+    top 19%
+    left 95%
+  95%
+    top 83%
+    left 93%
+    opacity 1
+  100%
+    opacity 0
+    top 85%
+    left 93%
+
+@keyframes citr-thirteen
+  0%
+    opacity 0
+    top 22%
+    left 61.5%
+  25%
+    opacity 0
+    top 22%
+    left 61.5%
+  30%
+    opacity 1
+  60%
+    top 20%
+    left 80%
+  70%
+    top 21%
+    left 81%
+  95%
+    top 83%
+    left 85%
+    opacity 1
+  100%
+    opacity 0
+    top 85%
+    left 86%
+
+@keyframes citr-fourteen
+  0%
+    opacity 0
+    top 25%
+    left 64%
+  25%
+    opacity 0
+    top 25%
+    left 64%
+  30%
+    opacity 1
+  60%
+    top 10%
+    left 75%
+  70%
+    top 11%
+    left 76%
+  95%
+    top 83%
+    left 75%
+    opacity 1
+  100%
+    opacity 0
+    top 85%
+    left 76%
+
+@keyframes over
+  0%
+    opacity 1
+  98%
+    opacity 1
+  100%
+    opacity 0
+
+@keyframes under
+  0%
+    opacity 1
+  98%
+    opacity 1
+  100%
+    opacity 0
+
+@keyframes membrane
+  0%
+    height 0%
+  10%
+    height 58.54%
+  100%
+    height 58.54%
